@@ -1,0 +1,24 @@
+package com.microservice.authserver.config;
+//
+//import org.springframework.context.annotation.Configuration;
+//import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+//import org.springframework.security.config.annotation.authentication.configuration.GlobalAuthenticationConfigurerAdapter;
+//import org.springframework.security.crypto.factory.PasswordEncoderFactories;
+//import org.springframework.security.crypto.password.PasswordEncoder;
+//
+//@Configuration
+//public class UserConfig extends GlobalAuthenticationConfigurerAdapter{
+//
+//	@Override
+//	public void init(AuthenticationManagerBuilder auth) throws Exception {
+//		
+//		PasswordEncoder encoder = PasswordEncoderFactories.createDelegatingPasswordEncoder();
+//		
+//		auth.inMemoryAuthentication().withUser("nimal").password(encoder.encode("nimal123")).roles("USER","ADMIN","MANAGER").authorities("CAN_READ","CAN_WRITE","CAN_DELETE").and()
+//				.withUser("sun").password(encoder.encode("sun123")).roles("USER").authorities("CAN_READ","CAN_WRITE");
+//		
+//	}
+//	
+//	
+//
+//}
